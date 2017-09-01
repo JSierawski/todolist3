@@ -27,6 +27,11 @@
   </tbody>
 </table>
 
+<p>
+  <strong>Number of Completed Todos: </strong>
+  <%= @todo_items.get_completed_count %>
+</p>
+
 <br>
 
 <%= link_to 'New Todo item', new_todo_item_path %>
